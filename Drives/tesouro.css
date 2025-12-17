@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    overflow: hidden; 
+}
+body{
+    background: linear-gradient(135deg, #4da8da, #74c0f2);
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    position: relative;
+    color: lightyellow;
+    text-align: center;
+    text-shadow: 0 0 5px yellow,
+                 0 0 10px #eaff00,
+                 0 0 15px #eaff00,
+                 0 0 20px #eaff00;
+}
+h2{
+    color: yellow;
+    text-align: center;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+}
